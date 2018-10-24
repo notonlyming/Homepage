@@ -1,147 +1,152 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, maximum-scale=2">
-  <title>Noisky |- 饭饭</title>
-  <meta name="author" content="Noisky">
-  <meta name="copyright" content="Noisky's Laboratory"/>
-  <meta name="description" content="饭饭's Homepage" />
-  <meta name="keywords" content="饭饭,Noisky,饭饭's Homepage" />	
-  <link rel="icon" href="./Noisky_files/img/favicon.ico">
-  <link rel="shortcut icon" href="./Noisky_files/img/favicon.ico">
-  <link rel="stylesheet" href="./Noisky_files/font-awesome.min.css">
-  <link rel="stylesheet" href="./Noisky_files/main.css">
+  <title>LittleMing - 明明</title>
+  <meta name="author" content="LittleMing">
+  <meta name="copyright" content="Noisky's Laboratory" />
+  <meta name="description" content="明明's Homepage" />
+  <meta name="keywords" content="明明,LittleMing,明明's Homepage" />
+  <link rel="icon" href="files/img/favicon.ico">
+  <link rel="shortcut icon" href="files/img/favicon.ico">
+  <link rel="stylesheet" href="files/font-awesome.min.css">
+  <link rel="stylesheet" href="files/main.css">
 </head>
+
 <body>
-    <span class="mobile btn-mobile-menu">
-        <i class="fa fa-list btn-mobile-menu__icon"></i>
-        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
-    </span>
-    <!-- 随机选取背景图片 -->
+  <span class="mobile btn-mobile-menu">
+    <i class="fa fa-list btn-mobile-menu__icon"></i>
+    <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+  </span>
+  <!-- 随机选取背景图片 -->
+  <!-- 不随机选取
     <script type="text/javascript">
-	//<!CDATA[
 	var bg = [];
-    bg[0] = './Noisky_files/img/bg-0.jpg';
-    bg[1] = './Noisky_files/img/bg-1.jpg';
-    bg[2] = './Noisky_files/img/bg-2.jpg';
-	bg[3] = './Noisky_files/img/bg-3.jpg';
-	bg[4] = './Noisky_files/img/bg-4.jpg';
-	bg[5] = './Noisky_files/img/bg-5.jpg';
-	bg[6] = './Noisky_files/img/bg-6.jpg';
-	bg[7] = './Noisky_files/img/bg-7.jpg';
-	bg[8] = './Noisky_files/img/bg-8.jpg';
-	bg[9] = './Noisky_files/img/bg-9.jpg';
-	bg[10] = './Noisky_files/img/bg-10.jpg';
+    bg[0] = 'files/img/bg-0.jpg';
+    bg[1] = 'files/img/bg-1.jpg';
+    bg[2] = 'files/img/bg-2.jpg';
+	bg[3] = 'files/img/bg-3.jpg';
+	bg[4] = 'files/img/bg-4.jpg';
+	bg[5] = 'files/img/bg-5.jpg';
+	bg[6] = 'files/img/bg-6.jpg';
+	bg[7] = 'files/img/bg-7.jpg';
+	bg[8] = 'files/img/bg-8.jpg';
+	bg[9] = 'files/img/bg-9.jpg';
+	bg[10] = 'files/img/bg-10.jpg';
 	var randomBgIndex = Math.round( Math.random() * 10 );
     document.write('<header class="panel-cover" style="background-image: url(' + bg[randomBgIndex] + ')">');
-	//]]>
 	</script>
-	<!-- 必应每日背景图片（使用请注释掉随机图片的代码，并将下行语句的注释移到本行句尾）
-	<header class="panel-cover" style="background-image: url('https://api.ffis.me/bing/bing-images.php')"> -->
-  <div class="panel-main">
-    <div class="panel-main__inner panel-inverted">
-    <div class="panel-main__content">
-		<a href="http://ffis.me/" title="前往 饭饭's Blog"><img src="./Noisky_files/img/noisky.jpg" alt="Noisky logo" class="panel-cover__logo logo"></a>
-		<a href="http://weibo.com/u/5230249128" class="Weibo_icon_position"><em title="前往饭饭的微博" class="Weibo_icon Weibo_icon_logo"></em></a>
+	-->
+  <!-- 必应每日背景图片（使用请注释掉随机图片的代码，并将下行语句的注释移到本行句尾） -->
+  <header class="panel-cover" style="background-image: url('https://api.ffis.me/bing/bing-images.php')">
+    <div class="panel-main">
+      <div class="panel-main__inner panel-inverted">
+        <div class="panel-main__content">
+          <a href="https://littleming.xyz" title="前往 明明's Blog"><img src="files/img/logo.jpg" alt="LittleMing logo"
+              class="panel-cover__logo logo"></a>
+          <a href="https://weibo.com/crytxkb" class="Weibo_icon_position"><em title="前往我的微博" class="Weibo_icon Weibo_icon_logo"></em></a>
 
-        <h1 class="panel-cover__title panel-title"><a href="http://ffis.me/" title="link to homepage for noisky">饭饭</a></h1>
+          <h1 class="panel-cover__title panel-title"><a href="https://littleming.xyz" title="link to homepage for LittleMing">LittleMing</a></h1>
 
-        <span class="panel-cover__subtitle panel-subtitle"><div id="hitokoto">『少女祈祷中…』</div></span>
-        
-        <hr class="panel-cover__divider">
-        <p class="panel-cover__description">嗨，我是 Noisky，一名来自 2.5 次元的魔法师，目前就读于河南工业大学，魔法学院，土木工程专业。</p>
-        <hr class="panel-cover__divider panel-cover__divider--secondary">
-        
-        <p class="panel-cover__description">欢迎来到我的魔法世界!</p>
-		
-        <div class="navigation-wrapper">
-          <div>
-            <nav class="cover-navigation cover-navigation--primary">
-              <ul class="navigation">
-                <li class="navigation__item"><a href="https://ffis.me/" title="访问博客">博客</a></li>
-                <li class="navigation__item"><a href="https://img.ffis.me/" target="_blank" title="饭饭's 图床">图床</a></li>
-                <li class="navigation__item"><a href="https://sign.ffis.me/" title="饭饭's 签到站">签到站</a></li>
-                <li class="navigation__item"><a href="https://dl.ffis.me/" title="饭饭's 下载站">下载站</a></li>
-                <li class="navigation__item"><a href="https://ffis.me/about.html" title="关于饭饭">关于</a></li>
-              </ul>
-            </nav>
-          </div>   
-<div><nav class="cover-navigation navigation--social">
-  <ul class="navigation">
-  <!-- Weibo -->
-  <li class="navigation__item">
-    <a href="http://weibo.com/u/5230249128" title="五分缘的微博" target="_blank">
-      <i class="social fa fa-weibo"></i>
-    </a>
-  </li>
+          <span class="panel-cover__subtitle panel-subtitle">
+            <div id="hitokoto">拼命加载, 冲鸭~</div>
+          </span>
 
-  <!-- QQ -->
-  <li class="navigation__item">
-    <a data-v class="wechat" href="#" title="QQ @饭饭">
-	<div data-v class="qrCode">
-	 <img data-v src="./Noisky_files/img/qq.png" width="92" onclick='window.open("./Noisky_files/img/qq.png")'>
-	  <div data-v class="triangle-down"></div>
-	</div>
-      <i class="social fa fa-qq"></i>
-    </a>
-  </li>
+          <hr class="panel-cover__divider">
+          <p class="panel-cover__description">嗨，我是 LittleMing，目前就读于河南工业大学，土木工程专业。</p>
+          <hr class="panel-cover__divider panel-cover__divider--secondary">
 
-  <!-- Telegram -->
-  <li class="navigation__item">
-    <a href="https://telegram.me/Noisky" title="Telegeam @Noisky" target="_blank">
-      <i class="social fa fa-telegram"></i>
-    </a>
-  </li>
-  
-  <!-- Weixin -->
-  <li class="navigation__item">
-    <a data-v href="#" title="扫一扫加我微信" class="wechat">
-	<div data-v class="qrCode">
-	 <img data-v src="./Noisky_files/img/Noisky_weixin.png" width="92" onclick='window.open("./Noisky_files/img/Noisky_weixin.png")'>
-	  <div data-v class="triangle-down"></div>
-	</div>
-      <i class="social fa fa-weixin"></i>
-    </a>
-  </li>
-  
-  <!-- Github -->
-  <li class="navigation__item">
-    <a href="https://github.com/noisky" title="Github @Noisky" target="_blank">
-      <i class="social fa fa-github"></i>
-    </a>
-  </li>
+          <p class="panel-cover__description">欢迎来到LittleMing的世界!</p>
 
-  <!-- RSS -->
-  <li class="navigation__item">
-    <a href="https://ffis.me/feed/" rel="author" title="RSS" target="_blank">
-      <i class="social fa fa-rss"></i>
-    </a>
-  </li>
-  
-  <!-- Email -->
-  <li class="navigation__item">
-    <a href="mailto:i@ffis.me" title="发邮件给我">
-      <i class="social fa fa-envelope"></i>
-    </a>
-  </li>
-  </ul>
-</nav>
-</div>
+          <div class="navigation-wrapper">
+            <div>
+              <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item"><a href="https://LittleMing.xyz/" title="访问博客">博客</a></li>
+                  <li class="navigation__item"><a href="https://littleming.xyz/about/" title="关于">关于</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div>
+              <nav class="cover-navigation navigation--social">
+                <ul class="navigation">
+                  <!-- Weibo -->
+                  <li class="navigation__item">
+                    <a href="http://weibo.com/crytxkb" title="微博" target="_blank">
+                      <i class="social fa fa-weibo"></i>
+                    </a>
+                  </li>
+
+                  <!-- QQ -->
+                  <li class="navigation__item">
+                    <a data-v class="wechat" href="files/img/qq.jpg" title="QQ"  target="_blank">
+                      <div data-v class="qrCode">
+                        <img data-v src="files/img/qq.jpg" width="92" onclick='window.open("files/img/qq.jpg")'>
+                        <div data-v class="triangle-down"></div>
+                      </div>
+                      <i class="social fa fa-qq"></i>
+                    </a>
+                  </li>
+
+                  <!-- Weixin -->
+                  <li class="navigation__item">
+                    <a data-v href="files/img/weixin.jpg" title="扫一扫加我微信" class="wechat"  target="_blank">
+                      <div data-v class="qrCode">
+                        <img data-v src="files/img/weixin.jpg" width="92" onclick='window.open("files/img/weixin.jpg")'>
+                        <div data-v class="triangle-down"></div>
+                      </div>
+                      <i class="social fa fa-weixin"></i>
+                    </a>
+                  </li>
+
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="https://github.com/notonlyming" title="Github" target="_blank">
+                      <i class="social fa fa-github"></i>
+                    </a>
+                  </li>
+
+                  <!-- RSS -->
+                  <li class="navigation__item">
+                    <a href="https://littleming.xyz/feed/" rel="author" title="RSS" target="_blank">
+                      <i class="social fa fa-rss"></i>
+                    </a>
+                  </li>
+
+                  <!-- Email -->
+                  <li class="navigation__item">
+                    <a href="mailto:me@littleming.xyz" title="发邮件给我">
+                      <i class="social fa fa-envelope"></i>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <!-- 底部年份动态化 + 备案号 -->
+          <footer class="footer">
+            <p>&copy;
+              <script>document.write(new Date().getFullYear())</script> littleming.xyz | 
+              <a style="TEXT-DECORATION: none" href="http://www.miibeian.gov.cn" rel="nofollow" target="_blank">
+              <font color="#b3b3b3">桂ICP备18002428号</font></a> | 
+              <font color="#b3b3b3">Design by </font>
+                <a style="TEXT-DECORATION: none" href="https://ffis.me/" rel="nofollow" target="_blank">
+                  <font color="#b3b3b3">饭饭</font>
+                </a>
+              </p>
+          </footer>
         </div>
-		<!-- 底部年份动态化 + 备案号 -->
-		<footer class="footer">
-		<p>&copy; <script>document.write(new Date().getFullYear())</script> Noisky.cn   |  <a style="TEXT-DECORATION: none" href="http://www.miibeian.gov.cn" rel="nofollow" target="_blank"><font color="#b3b3b3">豫ICP备16034017号-1</font></a></p>
-		</footer>
       </div>
+      <div class="panel-cover--overlay cover-slate"></div>
     </div>
-    <div class="panel-cover--overlay cover-slate"></div>
-  </div>
-</header>
-<script type="text/javascript" src="./Noisky_files/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="./Noisky_files/main.js"></script>
-<script type="text/javascript" src="./Noisky_files/hitokoto.js"></script>
+  </header>
+  <script type="text/javascript" src="files/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="files/main.js"></script>
+  <script type="text/javascript" src="files/hitokoto.js"></script>
   <!-- 统计代码 -->
 </body>
+
 </html>
